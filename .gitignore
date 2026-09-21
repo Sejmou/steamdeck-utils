@@ -1,0 +1,33 @@
+# Basic Python gitignore stuff; a lot probably actually irrelevant, but better add too much than too little
+
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+
+# uv-managed virtual environment
+.venv/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Type checker / linter / formatter caches
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Other common tooling caches
+.tox/
+.nox/
+.hypothesis/
+
+# Jupyter, if applicable
+.ipynb_checkpoints/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
